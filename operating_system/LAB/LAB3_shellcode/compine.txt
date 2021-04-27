@@ -1,0 +1,8 @@
+combine : gcc -static linuxsh.c -o linuxsh
+gdb lay ma assembly : dgb ./linuxsh
+combine code shell.asm : nasm -f elf64 shell.asm -o shell.o
+	ld shell.o -o shell 
+dung objdump lay ma shellcode : objdump -d shell 
+chen shellcode vao shellcodetest.c 
+bien dich shellcodetest.c : gcc -fno-stack-protector -z execstack shellcodetest.c -o shellcodetest
+chay shellcodetest ./shellcodetest => done
