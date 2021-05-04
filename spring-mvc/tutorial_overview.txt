@@ -1,0 +1,38 @@
+LESSON 1: GIỚI THIỆU
+	-	THIẾT LẬP MÔI TRƯỜNG 
+	-	TRUYỀN DỮ LIỆU TỪ CONTROLLER SANG VIEW
+
+LESSON 2: CONTROLLER
+	- ánh xạ RequestMapping
+		= nhiều action
+		= POST|GET
+		= Ánh xạ phân biệt tham số
+	- Phương pháp nhận tham số
+		= HttpServletRequest
+		= @RequestParam	
+		= Java bean 
+		= PathVariable nhận dữ liệu từ URL 
+	- Nhận COOKIE bằng @CookieValue
+	- Kết quả của phương thức action
+LESSON 3: LÀM VIỆC VỚI FORM
+	- Buộc giữ liệu lên form | DATA BINDING
+	- Xây dựng form
+	- @ModelAttribute
+
+LESSON 4: 
+	- EL : expression Language 
+	- JSTL : Java Standard Tag Library
+LESSON 5: BEAN & Dependency Injection
+	- DI
+	- bean
+	- @Autowired & @Qualifier
+	- sử dụng bean CommonMultipartResolver để upload file lên Sever
+	- Java Mail Sender
+LESSON 6: HIBERNATE
+	- Cấu hình hibernate
+	- ánh xạ thực thể 
+	- Lập trình hibernate 
+	- HQL
+LESSON 7: VALIDATION & INTERCEPTION 
+	- validation
+	- interception 
